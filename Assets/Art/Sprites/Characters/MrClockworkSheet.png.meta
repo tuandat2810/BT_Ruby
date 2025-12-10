@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,12 +167,12 @@ TextureImporter:
       name: MrClockworkSheet_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1023
-        width: 126
-        height: 256
+        x: 70
+        y: 1024
+        width: 124
+        height: 255
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: MrClockworkSheet_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 770
-        width: 143
-        height: 254
+        x: 328
+        y: 1024
+        width: 114
+        height: 244
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: MrClockworkSheet_2
       rect:
         serializedVersion: 2
-        x: 327
+        x: 581
         y: 1023
-        width: 116
-        height: 246
+        width: 110
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: MrClockworkSheet_3
       rect:
         serializedVersion: 2
-        x: 580
-        y: 1022
-        width: 112
-        height: 257
+        x: 834
+        y: 1024
+        width: 111
+        height: 244
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: MrClockworkSheet_4
       rect:
         serializedVersion: 2
-        x: 833
-        y: 1023
-        width: 113
-        height: 246
+        x: 28
+        y: 769
+        width: 144
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: MrClockworkSheet_5
       rect:
         serializedVersion: 2
-        x: 834
-        y: 769
-        width: 142
-        height: 255
+        x: 301
+        y: 771
+        width: 141
+        height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,13 +299,13 @@ TextureImporter:
       name: MrClockworkSheet_6
       rect:
         serializedVersion: 2
-        x: 27
-        y: 768
-        width: 146
-        height: 253
+        x: 586
+        y: 761
+        width: 150
+        height: 262
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: MrClockworkSheet_7
       rect:
         serializedVersion: 2
-        x: 542
-        y: 515
-        width: 197
-        height: 504
+        x: 835
+        y: 770
+        width: 140
+        height: 253
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: MrClockworkSheet_8
       rect:
         serializedVersion: 2
-        x: 23
-        y: 511
-        width: 227
-        height: 248
+        x: 24
+        y: 512
+        width: 225
+        height: 246
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: MrClockworkSheet_9
       rect:
         serializedVersion: 2
-        x: 325
-        y: 510
-        width: 136
-        height: 257
+        x: 326
+        y: 511
+        width: 134
+        height: 255
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: MrClockworkSheet_10
       rect:
         serializedVersion: 2
-        x: 777
-        y: 513
-        width: 241
-        height: 248
+        x: 778
+        y: 514
+        width: 239
+        height: 246
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: MrClockworkSheet_11
       rect:
         serializedVersion: 2
-        x: 74
-        y: 258
-        width: 101
-        height: 254
+        x: 75
+        y: 259
+        width: 99
+        height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: MrClockworkSheet_12
       rect:
         serializedVersion: 2
-        x: 314
-        y: 258
-        width: 124
-        height: 253
+        x: 315
+        y: 259
+        width: 122
+        height: 251
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,12 +453,12 @@ TextureImporter:
       name: MrClockworkSheet_13
       rect:
         serializedVersion: 2
-        x: 571
-        y: 260
-        width: 118
-        height: 249
+        x: 572
+        y: 261
+        width: 116
+        height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,12 +475,12 @@ TextureImporter:
       name: MrClockworkSheet_14
       rect:
         serializedVersion: 2
-        x: 839
-        y: 257
-        width: 145
-        height: 243
+        x: 840
+        y: 258
+        width: 143
+        height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -497,12 +497,12 @@ TextureImporter:
       name: MrClockworkSheet_15
       rect:
         serializedVersion: 2
-        x: 12
-        y: 3
-        width: 225
-        height: 249
+        x: 13
+        y: 4
+        width: 223
+        height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: MrClockworkSheet_16
       rect:
         serializedVersion: 2
-        x: 291
-        y: 2
-        width: 145
-        height: 243
+        x: 292
+        y: 3
+        width: 143
+        height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: MrClockworkSheet_17
       rect:
         serializedVersion: 2
-        x: 524
-        y: 3
-        width: 225
-        height: 249
+        x: 525
+        y: 4
+        width: 223
+        height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,11 +559,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: MrClockworkSheet_18
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 514
+        width: 175
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d967c0ec24f3154b844f23a45f0655c
+      internalID: 230823765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2b5022a207abe6b47955ae6315c5ec83
     internalID: 0
     vertices: []
     indices: 
@@ -571,7 +593,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       MrClockworkSheet_0: 5325455174355562970
       MrClockworkSheet_1: -1721885687753823957
@@ -583,6 +607,7 @@ TextureImporter:
       MrClockworkSheet_15: -3436138825435646282
       MrClockworkSheet_16: -3574952632413668907
       MrClockworkSheet_17: 3143446522961267030
+      MrClockworkSheet_18: 230823765
       MrClockworkSheet_2: 8879829194965339106
       MrClockworkSheet_3: -2154302389231162529
       MrClockworkSheet_4: -7433943464092835796

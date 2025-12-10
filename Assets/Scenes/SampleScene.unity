@@ -411,6 +411,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2189551872277377536, guid: 5c12fd64e6394e84691825d97ad9d650, type: 3}
   m_PrefabInstance: {fileID: 1667445338}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &477521606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8001196948448927400, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
+  m_PrefabInstance: {fileID: 667004924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498155712
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,11 +757,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4088463661904576642, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.02
+      value: 8.41
       objectReference: {fileID: 0}
     - target: {fileID: 4088463661904576642, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.04
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4088463661904576642, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
       propertyPath: m_LocalPosition.z
@@ -797,13 +802,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8001196948448927400, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 667004930}
   m_SourcePrefab: {fileID: 100100000, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
 --- !u!4 &667004925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4088463661904576642, guid: 0e14a35ab37f47840b3d3fe14a346620, type: 3}
   m_PrefabInstance: {fileID: 667004924}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &667004930
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477521606}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0066d877dd20eae46b0cbdd8736562be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &707724587
 GameObject:
   m_ObjectHideFlags: 0
