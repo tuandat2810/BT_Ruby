@@ -12,6 +12,8 @@ public class EnemyController : MonoBehaviour
     public float movingTime = 1.5f;
 
     Animator animator;
+    AudioSource audioSource;
+    public AudioClip fixedSound;
 
     bool isFixed = false;
 
@@ -20,6 +22,7 @@ public class EnemyController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         movingTimer = movingTime;
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -89,5 +92,8 @@ public class EnemyController : MonoBehaviour
 
         animator.SetFloat("Move X", 0);
         animator.SetFloat("Move Y", 0);
+
+        audioSource.Stop();
+        audioSource.PlayOneShot(fixedSound);
     }
 }

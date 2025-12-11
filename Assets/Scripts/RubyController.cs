@@ -24,11 +24,15 @@ public class RubyController : MonoBehaviour
 
     public GameObject projectilePrefab;
     
+    AudioSource audioSource;
+    public AudioClip throwSound;
+    public AudioClip hitSound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         currentHealth = 50;
     }
 
@@ -84,6 +88,7 @@ public class RubyController : MonoBehaviour
                 return;
 
             animator.SetTrigger("Hit");
+            PlaySound(hitSound);
 
             isInvincible = true;
             invincibleTimer = timeInvincible;
@@ -101,5 +106,11 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 300);
         
         animator.SetTrigger("Launch");
+        PlaySound(throwSound);
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
