@@ -13,6 +13,8 @@ public class EnemyController : MonoBehaviour
 
     Animator animator;
 
+    bool isFixed = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,6 +25,11 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        if (isFixed)
+        {
+            return; 
+        }
+
         movingTimer -= Time.deltaTime;
         if (movingTimer <= 0f)
         {
@@ -45,6 +52,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (isFixed)
+        {
+            return;
+        }
+
         Vector2 pos = rb.position;
         if (vertical)
         {
@@ -66,5 +78,16 @@ public class EnemyController : MonoBehaviour
             ruby.ChangeHealth(-5);
             Debug.Log("Enemy hit Ruby!");
         }
+    }
+
+    public void Fix()
+    {
+        isFixed = true;
+        rb.simulated = false;
+        
+        animator.SetTrigger("Fixed");
+
+        animator.SetFloat("Move X", 0);
+        animator.SetFloat("Move Y", 0);
     }
 }
