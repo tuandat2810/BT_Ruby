@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -185,12 +185,12 @@ TextureImporter:
       name: RubySheet_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 1280
-        width: 219
-        height: 231
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: RubySheet_1
       rect:
         serializedVersion: 2
-        x: 276
-        y: 1309
-        width: 216
-        height: 223
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: RubySheet_2
       rect:
         serializedVersion: 2
-        x: 523
-        y: 1281
-        width: 223
-        height: 235
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: RubySheet_3
       rect:
         serializedVersion: 2
-        x: 788
-        y: 1309
-        width: 219
-        height: 216
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: RubySheet_4
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1026
-        width: 140
-        height: 232
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,12 +295,12 @@ TextureImporter:
       name: RubySheet_5
       rect:
         serializedVersion: 2
-        x: 315
-        y: 1030
-        width: 147
-        height: 244
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,12 +317,12 @@ TextureImporter:
       name: RubySheet_6
       rect:
         serializedVersion: 2
-        x: 545
-        y: 1025
-        width: 149
-        height: 230
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: RubySheet_7
       rect:
         serializedVersion: 2
-        x: 819
-        y: 1026
-        width: 141
-        height: 253
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: RubySheet_8
       rect:
         serializedVersion: 2
-        x: 54
-        y: 769
-        width: 130
-        height: 230
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: RubySheet_9
       rect:
         serializedVersion: 2
-        x: 305
-        y: 779
-        width: 132
-        height: 235
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: RubySheet_10
       rect:
         serializedVersion: 2
-        x: 564
+        x: 512
         y: 768
-        width: 137
-        height: 228
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,12 +427,12 @@ TextureImporter:
       name: RubySheet_11
       rect:
         serializedVersion: 2
-        x: 831
-        y: 780
-        width: 133
-        height: 232
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: RubySheet_12
       rect:
         serializedVersion: 2
-        x: 59
-        y: 511
-        width: 144
-        height: 253
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -471,12 +471,12 @@ TextureImporter:
       name: RubySheet_13
       rect:
         serializedVersion: 2
-        x: 311
+        x: 256
         y: 512
-        width: 124
+        width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -493,12 +493,12 @@ TextureImporter:
       name: RubySheet_14
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 512
-        width: 127
-        height: 257
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -515,12 +515,12 @@ TextureImporter:
       name: RubySheet_15
       rect:
         serializedVersion: 2
-        x: 806
-        y: 513
-        width: 185
-        height: 241
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -537,12 +537,12 @@ TextureImporter:
       name: RubySheet_16
       rect:
         serializedVersion: 2
-        x: 41
-        y: 259
-        width: 175
-        height: 244
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,12 +559,12 @@ TextureImporter:
       name: RubySheet_17
       rect:
         serializedVersion: 2
-        x: 297
-        y: 263
-        width: 152
-        height: 229
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: RubySheet_18
       rect:
         serializedVersion: 2
-        x: 547
-        y: 266
-        width: 164
-        height: 216
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: RubySheet_19
       rect:
         serializedVersion: 2
-        x: 790
-        y: 263
-        width: 163
-        height: 231
+        x: 768
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -625,12 +625,12 @@ TextureImporter:
       name: RubySheet_20
       rect:
         serializedVersion: 2
-        x: 7
-        y: 7
-        width: 236
-        height: 214
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -647,12 +647,12 @@ TextureImporter:
       name: RubySheet_21
       rect:
         serializedVersion: 2
-        x: 313
+        x: 256
         y: 0
-        width: 144
-        height: 249
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -669,12 +669,12 @@ TextureImporter:
       name: RubySheet_22
       rect:
         serializedVersion: 2
-        x: 566
+        x: 512
         y: 0
-        width: 124
-        height: 252
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -691,12 +691,12 @@ TextureImporter:
       name: RubySheet_23
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 0
-        width: 128
-        height: 254
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -713,7 +713,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 09ca6fcc63d71164fa6d043032ba1adc
     internalID: 0
     vertices: []
     indices: 
@@ -721,7 +721,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       RubySheet_0: 1179689532383277787
       RubySheet_1: 1131449469214495470

@@ -1,12 +1,18 @@
+using UnityEditor.Experimental.GraphView;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
     float speed = 3.0f;
+
+    Animator animator;
     Rigidbody2D rigidbody2d;
 
     float horizontal;
     float vertical;
+
+    Vector2 lookDirection = new Vector2(0, 0);
 
     public int maxHealth = 100;
     int currentHealth;
@@ -15,10 +21,13 @@ public class RubyController : MonoBehaviour
     float timeInvincible = 1.0f;
     bool isInvincible;
     float invincibleTimer;
+
+    public GameObject projectilePrefab;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = 50;
     }
@@ -29,6 +38,19 @@ public class RubyController : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
+        // Animation parameters
+        Vector2 move = new Vector2(horizontal, vertical);
+        if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
+        {
+            lookDirection.Set(move.x, move.y);
+            lookDirection.Normalize();
+        }
+
+        animator.SetFloat("Look X", lookDirection.x);
+        animator.SetFloat("Look Y", lookDirection.y);
+        animator.SetFloat("Speed", move.magnitude);
+        // Debug.Log("Speed: " + move.magnitude.ToString());
+
         if (isInvincible)
         {
             invincibleTimer -= Time.deltaTime;
@@ -36,6 +58,11 @@ public class RubyController : MonoBehaviour
             {
                 isInvincible = false;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            LaunchProjectile();
         }
     }
 
@@ -56,11 +83,23 @@ public class RubyController : MonoBehaviour
             if (isInvincible)
                 return;
 
+            animator.SetTrigger("Hit");
+
             isInvincible = true;
             invincibleTimer = timeInvincible;
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log("Health: " + currentHealth.ToString());
+    }
+
+    void LaunchProjectile()
+    {
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.2f   , Quaternion.identity);
+
+        Projectile projectile = projectileObject.GetComponent<Projectile>();
+        projectile.Launch(lookDirection, 300);
+        
+        animator.SetTrigger("Launch");
     }
 }
