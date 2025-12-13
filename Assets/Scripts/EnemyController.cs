@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
     bool isFixed = false;
 
     // How to get the System Partical
-    ParticleSystem particleSystem;
+    // ParticleSystem particleSystem;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour
         movingTimer = movingTime;
         audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
-        particleSystem = GetComponentInChildren<ParticleSystem>();
+        // particleSystem = GetComponentInChildren<ParticleSystem>();
     }
 
     void Update()
@@ -90,7 +90,7 @@ public class EnemyController : MonoBehaviour
     public void Fix()
     {
         isFixed = true;
-        particleSystem.Stop();  
+        // particleSystem.Stop();  
         rb.simulated = false;
         
         animator.SetTrigger("Fixed");
