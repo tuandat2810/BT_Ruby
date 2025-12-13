@@ -1,6 +1,7 @@
 using UnityEditor.Experimental.GraphView;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RubyController : MonoBehaviour
 {
@@ -27,13 +28,15 @@ public class RubyController : MonoBehaviour
     AudioSource audioSource;
     public AudioClip throwSound;
     public AudioClip hitSound;
+    public Image healthBar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
-        currentHealth = 50;
+        currentHealth = 100;
+        UpdateHealthBarUI();
     }
 
     // Update is called once per frame
@@ -95,6 +98,7 @@ public class RubyController : MonoBehaviour
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        UpdateHealthBarUI();
         Debug.Log("Health: " + currentHealth.ToString());
     }
 
@@ -112,5 +116,11 @@ public class RubyController : MonoBehaviour
     public void PlaySound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
+    }
+
+    public void UpdateHealthBarUI()
+    {
+        float healthRatio = (float)currentHealth / (float)maxHealth;
+        healthBar.fillAmount = healthRatio;
     }
 }
