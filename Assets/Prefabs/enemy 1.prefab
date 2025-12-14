@@ -186,6 +186,7 @@ MonoBehaviour:
   vertical: 1
   movingTime: 1.5
   fixedSound: {fileID: 8300000, guid: c299a9d6aec9aad429eb349f53515178, type: 3}
+  particleSystem: {fileID: 8408455035206052033}
 --- !u!95 &4531878607400463541
 Animator:
   serializedVersion: 7
@@ -423,5 +424,10 @@ PrefabInstance:
 --- !u!4 &2133103391597797974 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2960902559842887936, guid: 940cd540cec82fb45af9c6ba16868b94, type: 3}
+  m_PrefabInstance: {fileID: 3786809354525920086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8408455035206052033 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4629038814066238359, guid: 940cd540cec82fb45af9c6ba16868b94, type: 3}
   m_PrefabInstance: {fileID: 3786809354525920086}
   m_PrefabAsset: {fileID: 0}

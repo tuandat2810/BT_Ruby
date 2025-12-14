@@ -1,5 +1,3 @@
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -70,6 +68,20 @@ public class RubyController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             LaunchProjectile();
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
+            if (hit.collider != null)
+            {
+                Debug.Log("Raycast hit " + hit.collider.gameObject.name);
+                NPC npc = hit.collider.GetComponent<NPC>();
+                if (npc != null)
+                {
+                    npc.showDialog();
+                }
+            }   
         }
     }
 
